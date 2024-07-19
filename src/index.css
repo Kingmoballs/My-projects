@@ -1,0 +1,11 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: #021226;
+  height: 100%;
+  font-family: 'Karla', sans-serif;
+  overflow: hidden;
+}
