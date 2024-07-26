@@ -3,12 +3,13 @@
   max-width: 100%;
   margin: auto;
   margin-top: 7vh;
+  margin-bottom: 7vh;
   border-radius: 0.5rem;
   display: flex;
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  height: 600px;
+  height: 650px;
   max-height: 100%;
   width: 40%;
 }
@@ -142,7 +143,7 @@ hr {
 @media (max-width: 600px) {
   .quiz-app {
     width: 90%;
-    height: 600px;
+    height: 650px;
     max-height: 100%;
     margin-top: 5vh;
   
