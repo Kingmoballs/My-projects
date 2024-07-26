@@ -158,6 +158,9 @@ hr {
   }
   .quiz-page {
     width: 80%;
+    height:700px;
+    margin:auto;
+    align-items: center;
 
   }
   .quiz-question {
