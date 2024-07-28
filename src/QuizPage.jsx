@@ -74,7 +74,7 @@ export default function QuizPage() {
                             onClick={() => handleAnswer(questionIndex, answer)}
                             style={{
                                 backgroundColor: answers[questionIndex] === answer
-                                    ? (showAnswers && answer === question.correct_answer ? 'lightgreen' : '#D6DBF5')
+                                    ? (showAnswers && answer === question.correct_answer ? 'lightgreen' : (showAnswers ? '#FF7074' : '#D6DBF5'))
                                     : (showAnswers && answer === question.correct_answer ? 'lightgreen' : 'white')
                             }}
                         >
